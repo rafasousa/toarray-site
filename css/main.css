@@ -1,0 +1,445 @@
+@font-face {
+    font-family: "Trebuchet MS";
+}
+
+body {
+    background: url(../img/bg_phone.jpg) no-repeat center center;
+    background-attachment: fixed;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    background-size: cover;
+}
+
+header span {
+    background: #e42d10;
+    color: #fff;
+    opacity: 0.91;
+    display: inline;
+    line-height: 200%;
+}
+
+.header {
+    font-family: "Trebuchet MS";
+    font-size: 60px;
+    height: 538px;
+    background: url(../img/pattern.png) repeat;
+    background-color: transparent;
+    text-align: center;
+}
+
+.header div {
+    padding-top: 60px;
+    text-align: left;
+    max-width: 980px;
+    margin: auto;
+    line-height: 150px;
+}
+
+.header div.menu {
+    padding: 0;
+    margin: 0 auto;
+    line-height: 47px;
+    height: 47px;
+}
+
+.header div.menu a {
+    float: right;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    height: 47px;
+    width: 130px;
+    background: url(../img/en-hu.png) no-repeat;
+    display: block;
+    text-indent: -9999px;
+    background-position: 0 0;
+}
+
+.header div.menu a:hover {
+    background-position: 0 -47px;
+}
+
+.header div.menu a.english {
+    background-position: 0 -47px;
+}
+
+.header div.menu a.english:hover {
+    background-position: 0 0;
+}
+
+.header div.menu a img {
+    vertical-align: top;
+}
+
+.message {
+    background: url(../img/wacom_hdpi.jpg) no-repeat center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    box-shadow: inset 0 20px 15px -20px #4a4a69;
+}
+
+.message > div {
+    line-height: 270px;
+    font-family: "Trebuchet MS";
+    background: url(../img/spotpattern.png) repeat;
+    background-color: transparent;
+}
+
+.message > div > div {
+    max-width: 980px;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 70px;
+    line-height: 80px;
+    height: 310px;
+}
+
+h2 {
+    font-family: "Trebuchet MS";
+    font-size: 34px;
+    color: #3C3E6E;
+    text-shadow: 2px 2px 4px #6F7190;
+    margin: 20px 0;
+}
+
+.content {
+    background-color: #f2f2f0;
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+	background-color: #000;
+	height: 600px;
+}
+
+.about p {
+	font-family: "Trebuchet MS";
+	font-size: 40px;
+	line-height: 1.3em;
+	padding-top: 210px;
+	color: #FFF;
+	text-shadow: 2px 2px 20px #8A8484;
+}
+
+.dribbble {
+    box-shadow: inset 0 20px 15px -20px #a2a2a2;
+    height: 400px;
+}
+
+.about > div,
+.dribbble .row {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.dribbble .row {
+    position: relative;
+    top: -240px;
+}
+
+.bubblelink {
+    font-family: "Asap-BoldItalic";
+    font-size: 26px;
+    border-radius: 25px;
+    padding: 10px 25px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.watchportfolio {
+    padding: 70px 0 50px 0;
+}
+
+.watchportfolio a {
+    background-color: #14141f;
+    color: #fff;
+}
+
+.watchportfolio a:hover {
+    background-color: #EE2C0E;
+    text-decoration: none;
+    color: #fff;
+}
+
+.seemeondribble {
+    padding: 40px 0 40px 0 !important;
+}
+
+.seemeondribble a {
+    background-color: #171737;
+    color: #ed81aa;
+}
+
+.seemeondribble a:hover {
+    background-color: #d3477e;
+    color: #1e1e2b;
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+    top: 82px;
+    margin: 0 auto;
+    width: 250px;
+}
+
+	.logo img { 
+		border-radius: 100px; 
+	}
+
+footer .logo {
+    top: 0;
+}
+
+    footer .logo img {
+        position: absolute;
+        top: -26px;
+        width: 60px;
+    }
+
+footer p {
+    margin: 19px 30px 0 30px;
+}
+
+.dtl-ball {
+	position: relative;
+	top: 140px;
+	height: 200px;
+}
+	
+.ball {
+	margin: 0 auto;
+	width: 200px;
+	display: block;
+	height: 200px;
+}
+
+	.ball img {
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+	}
+
+
+.noisebg {
+    background: url(../img/table.jpg) no-repeat 0 -50px;
+    background-attachment: fixed
+}
+
+.social-icons {
+    float: right;
+    position: relative;
+    top: -32px;
+    right: 40px;
+}
+
+.social {
+    width: 64px;
+    height: 64px;
+    background: url(../img/social.png) no-repeat;
+    text-indent: -4000px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.googleplay {
+    background-position: 0 0;
+    width: 56px;
+}
+
+.googleplay:hover {
+    background-position: 0 -64px;
+    width: 56px;
+}
+
+.facebook {
+    background-position: -56px 0;
+}
+
+.facebook:hover {
+    background-position: -56px -64px;
+}
+
+.googleplus {
+    background-position: -120px 0;
+}
+
+.googleplus:hover {
+    background-position: -120px -64px;
+}
+
+.contact .left {
+    width: 30%;
+    padding-top: 46px;
+    padding-left: 30px;
+    float: left;
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+.contact .right {
+    padding-top: 57px;
+    float: right;
+    width: 65%;
+    text-align: left;
+}
+
+.contact .right p {
+    margin-top: 32px;
+    font-family: "Asap-Italic";
+    font-size: 26px;
+    line-height: 1.3em;
+    max-width: 690px;
+}
+
+.email {
+    max-width: 980px;
+    margin: 0 auto;
+    font-family: "Asap-Italic";
+    font-size: 25px;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+hr {
+    border: solid 1px #a1a1a1;
+}
+
+hr.above-form {
+    margin-bottom: 35px;
+}
+
+.bellow-form {
+    margin-top: 130px;
+    margin-bottom: 15px;
+    background: url(../img/textareapattern.png) repeat-x;
+    height: 2px;
+}
+
+.form-left {
+    width: 48%;
+    float: left;
+    text-align: right;
+}
+
+.form-right {
+    width: 48%;
+    float: right;
+    text-align: left;
+}
+
+textarea, input[type="text"], input[type="submit"] {
+    width: 450px;
+    display: block;
+    background: url(../img/textareapattern.png) repeat;
+    border: none;
+    border-radius: 0;
+    color: #121212;
+    font-size: 28px;
+    height: 50px;
+    line-height: 28px;
+    padding: 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 8px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #121212;
+    padding-left: 10px;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #121212;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #121212;
+}
+
+input[type="submit"] {
+    background: url(../img/sendmessage.png) no-repeat top center;
+    text-indent: -3000px;
+    height: 50px;
+    margin-top: 40px;
+    background-position: 0 0;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus {
+    background-position: 0 -50px;
+}
+
+textarea {
+    float: right;
+    height: 210px;
+}
+
+footer {
+    height: 62px;
+    background-color: #000;
+    color: #fff;
+}
+
+#error, #success {
+    font-family: Asap-Italic;
+    color: #e42d10;
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+#success {
+    color: #4b7510;
+}
+
+@media only screen and (max-width: 658px) {
+    .contact .left, .contact .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .form-left, .form-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    textarea, input[type="text"], input[type="submit"] {
+        float: none;
+        margin: 0 auto 20px auto;
+    }
+}
+
+#portfolio p {
+    text-shadow: 2px 2px 4px #fff;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.pattern {
+    background: url(../img/pattern.png) repeat;
+    background-color: transparent;
+    height: 100%;
+}
+
+.android {
+    display: block;
+    background: url(../img/btn_android.png) no-repeat;
+    width: 130px;
+    height: 46px;
+    text-indent: -9000px;
+    margin: 0 auto;
+}
